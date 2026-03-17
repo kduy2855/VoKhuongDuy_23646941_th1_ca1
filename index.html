@@ -1,142 +1,35 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Data Engineering Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <title>Trang cá nhân sinh viên</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  <main class="container">
-    <header class="profile-header">
-      <div class="avatar">
-        <img src="avata.jpg" alt="Ảnh đại diện" />
-      </div>
-      <div class="profile-info">
-        <h1>VÕ KHƯƠNG DUY</h1>
-        <p class="subtitle">Sinh viên năm 3 – Khoa Khoa học Dữ liệu • ĐH Công nghiệp TP.HCM</p>
-        <p class="subtitle">MSSV: 23646941 • Lớp: DHKHDL19A</p>
-        <p class="tagline">Học pipeline dữ liệu &amp; ETL, xử lý Big Data, xây dựng báo cáo cho business</p>
-
-        <div class="header-actions">
-          <a class="btn" href="#" download>Download CV</a>
-          <a class="btn btn-outline" href="#projects">Xem dự án</a>
+    <div class="profile-card">
+        <div id="avatar">
+            <img src="images/avatar.jpg" alt="Ảnh đại diện">
         </div>
-      </div>
-    </header>
-
-
-    <section class="about">
-      <h2>Giới thiệu bản thân</h2>
-      <p>
-        Tôi là sinh viên năm 3 ngành Khoa học Dữ liệu, đang học các môn Database, Data Mining, và Big Data.
-        Tôi thích làm việc với dữ liệu thực tế, xây dựng pipeline ETL, và làm báo cáo trực quan để hỗ trợ quyết định.
-        Mục tiêu hiện tại là hoàn thiện kỹ năng SQL, Python, và tìm cơ hội internship Data Engineer / Data Analyst.
-      </p>
-    </section>
-
-    <section class="skills">
-      <h2>Kỹ năng</h2>
-      <div class="skill-grid">
-        <span class="skill">Python (Pandas, NumPy)</span>
-        <span class="skill">SQL / PostgreSQL</span>
-        <span class="skill">Excel / Google Sheets</span>
-        <span class="skill">Data Visualization (Tableau, Power BI)</span>
-        <span class="skill">ETL cơ bản (Airflow, cron)</span>
-        <span class="skill">Linux &amp; Git</span>
-        <span class="skill">Docker &amp; container</span>
-        <span class="skill">Kiến thức Big Data (Spark, Hadoop)</span>
-      </div>
-    </section>
-
-    <section class="projects" id="projects">
-      <h2>Dự án tiêu biểu</h2>
-      <div class="project-grid">
-        <article class="project-card">
-          <h3>Phân tích dữ liệu điểm số</h3>
-          <p>Phân tích dataset điểm số sinh viên, tính toán KPI, và tạo dashboard đơn giản bằng Power BI/Google Data Studio.</p>
-          <a class="project-link" href="#" target="_blank" rel="noopener">Xem chi tiết</a>
-        </article>
-
-        <article class="project-card">
-          <h3>ETL học thuật (Python + SQL)</h3>
-          <p>Xây dựng pipeline ETL tự động: trích dữ liệu CSV, chuẩn hoá, và load vào PostgreSQL để sử dụng cho báo cáo.</p>
-          <a class="project-link" href="#" target="_blank" rel="noopener">Xem chi tiết</a>
-        </article>
-
-        <article class="project-card">
-          <h3>Dashboard IoT học tập</h3>
-          <p>Thu thập dữ liệu cảm biến từ thiết bị IoT, lưu vào database và hiển thị realtime bằng biểu đồ.</p>
-          <a class="project-link" href="#" target="_blank" rel="noopener">Xem chi tiết</a>
-        </article>
-      </div>
-    </section>
-
-    <section class="hobbies">
-      <h2>Sở thích</h2>
-      <ul class="hobby-list">
-        <li>Phân tích dữ liệu, khám phá dataset và visualizations</li>
-        <li>Thử nghiệm với pipeline ETL và tự động hoá dữ liệu</li>
-        <li>Học thêm về MLOps &amp; hạ tầng dữ liệu</li>
-        <li>Tập GYM, Chạy bộ &amp; Bóng Đá</li>
-      </ul>
-    </section>
-
-    <section class="goals">
-      <h2>Mục tiêu tương lai</h2>
-      <ul class="goal-list">
-        <li>Hoàn thiện kỹ năng Data Engineer để có thể làm việc trong team Data/BI.</li>
-        <li>Tìm internship/part-time về dữ liệu, tham gia dự án thực tế.</li>
-        <li>Xây dựng portfolio dự án (ETL, dashboard, mobile analytics).</li>
-        <li>Chia sẻ kinh nghiệm qua blog, GitHub và cộng đồng sinh viên.</li>
-      </ul>
-    </section>
-
-    <section class="contact">
-      <h2>Liên hệ</h2>
-      <ul>
-        <li>
-          <span class="icon" aria-hidden="true">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 4H20C21.1046 4 22 4.89543 22 6V18C22 19.1046 21.1046 20 20 20H4C2.89543 20 2 19.1046 2 18V6C2 4.89543 2.89543 4 4 4Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M22 6L12 13L2 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </span>
-          <strong>Email:</strong> <a href="mailto:vokhuongduy2805@gmail.com">vokhuongduy2805@gmail.com</a>
-        </li>
-        <li>
-          <span class="icon" aria-hidden="true">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M6.62 10.79C8.06 13.95 10.05 15.94 13.21 17.38L15.27 15.32C15.46 15.13 15.74 15.06 16 15.11C17.06 15.33 18.19 15.45 19.35 15.45C19.66 15.45 19.92 15.71 19.92 16.02V20.01C19.92 20.32 19.66 20.58 19.35 20.58C10.3 20.58 3.42 13.7 3.42 4.65C3.42 4.34 3.68 4.08 3.99 4.08H7.98C8.29 4.08 8.55 4.34 8.55 4.65C8.55 5.81 8.67 6.94 8.89 7.99C8.94 8.25 8.87 8.53 8.68 8.72L6.62 10.79Z" fill="currentColor"/>
-            </svg>
-          </span>
-          <strong>Phone:</strong> <a href="tel:+84812456790">(+84) 812 456 790</a>
-        </li>
-        <li>
-          <span class="icon" aria-hidden="true">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12 2C6.477 2 2 6.477 2 12C2 16.991 5.657 21.128 10.438 21.878C10.938 21.948 11.094 21.648 11.094 21.39C11.094 21.17 11.086 20.47 11.082 19.608C7.728 20.281 7.154 18.105 7.154 18.105C6.687 16.765 5.938 16.436 5.938 16.436C4.813 15.72 6.004 15.732 6.004 15.732C7.222 15.807 7.86 16.96 7.86 16.96C8.937 18.7 10.695 18.167 11.343 17.91C11.416 17.176 11.702 16.677 12.02 16.392C9.234 16.1 6.344 15.103 6.344 10.882C6.344 9.655 6.812 8.65 7.55 7.874C7.45 7.581 7.064 6.361 7.64 4.813C7.64 4.813 8.608 4.507 11.082 6.08C12.02 5.854 13.02 5.746 14.02 5.742C15.02 5.746 16.02 5.854 16.96 6.08C19.43 4.507 20.398 4.813 20.398 4.813C20.976 6.361 20.59 7.581 20.49 7.874C21.23 8.65 21.696 9.655 21.696 10.882C21.696 15.114 18.8 16.096 15.998 16.382C16.39 16.755 16.74 17.486 16.74 18.578C16.74 20.173 16.724 21.346 16.724 21.39C16.724 21.65 16.88 21.954 17.386 21.874C22.166 21.12 25.822 16.994 25.822 12C25.822 6.477 21.345 2 15.822 2H12Z" fill="currentColor"/>
-            </svg>
-          </span>
-          <strong>GitHub:</strong> <a href="https://github.com/kduy2855" target="_blank" rel="noopener">github.com/kduy2855</a>
-        </li>
-        <li>
-          <span class="icon" aria-hidden="true">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4.98 3.5C4.98 5.13 3.86 6.25 2.23 6.25C0.6 6.25 -0.52 5.13 -0.52 3.5C-0.52 1.87 0.6 0.75 2.23 0.75C3.86 0.75 4.98 1.87 4.98 3.5Z" fill="currentColor"/>
-              <path d="M0.25 8.25H4.21V24H0.25V8.25Z" fill="currentColor"/>
-              <path d="M7.25 8.25H11.05V10.14H11.1C11.74 9.06 13.21 7.88 15.35 7.88C19.35 7.88 20 10.67 20 14.34V24H16.05V15.22C16.05 13.58 16.02 11.57 13.94 11.57C11.83 11.57 11.49 13.31 11.49 15.11V24H7.55V8.25H7.25Z" fill="currentColor"/>
-            </svg>
-          </span>
-          <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/kh%C6%B0%C6%A1ng-duy-4747473b7/" target="_blank" rel="noopener">linkedin.com/in/kh%C6%B0%C6%A1ng-duy-4747473b7</a>
-        </li>
-      </ul>
-    </section>
-
-    <footer class="footer">
-      <p>© 2026 Võ Khương Duy. Tất cả quyền được bảo lưu.</p>
-    </footer>
-
-  </main>
+        <div id="full-name">Vo Khuong Duy</div>
+        <div id="student-id" style="display:none;">23642061</div>
+        <div id="email">vokhuongduy2805@gmail.com</div>
+        <div id="github-link">
+            <a href="https://github.com/kduy2855" target="_blank">GitHub</a>
+        </div>
+        <div id="linkedin-link">
+            <a href="https://www.linkedin.com/in/kh%C6%B0%C6%A1ng-duy-4747473b7/" target="_blank">LinkedIn</a>
+        </div>
+        <div id="hobbies">
+            <ul>
+                <li>Phân tích dữ liệu, khám phá dataset và visualizations</li>
+                <li>Học thêm về MLOps &amp; hạ tầng dữ liệu</li>
+                <li>Thử nghiệm với pipeline ETL và tự động hoá dữ liệu</li>
+                <li>Tập GYM, Chạy bộ &amp; Bóng Đá</li>
+            </ul>
+        </div>
+    </div>
 </body>
+
 </html>
